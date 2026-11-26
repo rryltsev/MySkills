@@ -1,0 +1,10 @@
+# Use a child/subshell on compute-writable storage; fill @INSTALL_RUN@ before execution.
+(
+  set -euo pipefail
+  mkdir -p @INSTALL_RUN@/home @INSTALL_RUN@/cache @INSTALL_RUN@/tmp
+  export HOME=@INSTALL_RUN@/home
+  export XDG_CACHE_HOME=@INSTALL_RUN@/cache TMPDIR=@INSTALL_RUN@/tmp
+  export CONDA_PKGS_DIRS=@INSTALL_RUN@/cache/conda PIP_CACHE_DIR=@INSTALL_RUN@/cache/pip
+  export PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1
+  # Place the reviewed installation commands here.
+)

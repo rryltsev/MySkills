@@ -1,0 +1,1191 @@
+{
+  "created_date": "2026-11-05",
+  "source_projects": {
+    "MLIP-research": {
+      "git_commit": "55b448ba09e2cc1515fff65198fb908ea1618ad1",
+      "working_tree_files": "file hashes are authoritative"
+    },
+    "TiAl": {
+      "git_commit": null,
+      "note": "No resolvable HEAD; selected working files identified by hashes"
+    }
+  },
+  "scope": "Portable workflows; no credentials, licensed artifacts, weights or scientific data",
+  "files": [
+    {
+      "project": "MLIP-research",
+      "source": "scripts/al_pilot.py",
+      "original_sha256": "abddcf84dd5c27d0749e57ac1cad9673e848bdf7b56729d4bb512d3012c31888",
+      "archive_path": "recipes/MLIP-research/scripts/al_pilot.py.source",
+      "sanitized_sha256": "a6de76633eab70d04129cae0cb20a6461db1a273900e8813f1d906b4c58abff4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a6de76633eab70d04129cae0cb20a6461db1a273900e8813f1d906b4c58abff4"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_al32_dataset.py",
+      "original_sha256": "e7a4ec2842c71b2e682a6d3a88da440b042c6f3f52ddc739f7603b6f1413599b",
+      "archive_path": "recipes/MLIP-research/scripts/assess_al32_dataset.py.source",
+      "sanitized_sha256": "e7a4ec2842c71b2e682a6d3a88da440b042c6f3f52ddc739f7603b6f1413599b",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "e7a4ec2842c71b2e682a6d3a88da440b042c6f3f52ddc739f7603b6f1413599b"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_al_pilot.py",
+      "original_sha256": "36e88d6c0d2087a48ab84d41d4f16753f5bfb53617567787b650c79e2c93b1e8",
+      "archive_path": "recipes/MLIP-research/scripts/assess_al_pilot.py.source",
+      "sanitized_sha256": "36e88d6c0d2087a48ab84d41d4f16753f5bfb53617567787b650c79e2c93b1e8",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "36e88d6c0d2087a48ab84d41d4f16753f5bfb53617567787b650c79e2c93b1e8"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_finetune.py",
+      "original_sha256": "05fdba86fff969fc75709f0ce4eae97af36e5f80186ec00c547b809dedf02a80",
+      "archive_path": "recipes/MLIP-research/scripts/assess_finetune.py.source",
+      "sanitized_sha256": "05fdba86fff969fc75709f0ce4eae97af36e5f80186ec00c547b809dedf02a80",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "05fdba86fff969fc75709f0ce4eae97af36e5f80186ec00c547b809dedf02a80"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_fm_baseline.py",
+      "original_sha256": "0c39f810850923b2f572b880c2904a527c60daac8066d639ebed3f7f67bef749",
+      "archive_path": "recipes/MLIP-research/scripts/assess_fm_baseline.py.source",
+      "sanitized_sha256": "0c39f810850923b2f572b880c2904a527c60daac8066d639ebed3f7f67bef749",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0c39f810850923b2f572b880c2904a527c60daac8066d639ebed3f7f67bef749"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_kplib_benchmark.py",
+      "original_sha256": "3267de116dd03753a06f8737aa6dc25c77ad6da6830eebd595004f8de5330c30",
+      "archive_path": "recipes/MLIP-research/scripts/assess_kplib_benchmark.py.source",
+      "sanitized_sha256": "3267de116dd03753a06f8737aa6dc25c77ad6da6830eebd595004f8de5330c30",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "3267de116dd03753a06f8737aa6dc25c77ad6da6830eebd595004f8de5330c30"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/assess_lora.py",
+      "original_sha256": "1ca29df15b5c6e6636e6475ebd97381fe5dfad5ad0ff963e1360cfc8bfa03d1d",
+      "archive_path": "recipes/MLIP-research/scripts/assess_lora.py.source",
+      "sanitized_sha256": "1ca29df15b5c6e6636e6475ebd97381fe5dfad5ad0ff963e1360cfc8bfa03d1d",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "1ca29df15b5c6e6636e6475ebd97381fe5dfad5ad0ff963e1360cfc8bfa03d1d"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/backup_finetune_evidence.py",
+      "original_sha256": "fdec193e526a5eaa4e24f10243a8c74b5c9b0fa7fb3e8cb6f8b144ae3de70f47",
+      "archive_path": "recipes/MLIP-research/scripts/backup_finetune_evidence.py.source",
+      "sanitized_sha256": "8530d697da2a1478d14d93292be9474411771e6b2da5c177c2a0eb92dcab43e1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "8530d697da2a1478d14d93292be9474411771e6b2da5c177c2a0eb92dcab43e1"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/backup_fm_run.py",
+      "original_sha256": "dc940aaa67d062da29f9b97a5a67f870b6d37441bb0c85d4a6627f58b54bb5ed",
+      "archive_path": "recipes/MLIP-research/scripts/backup_fm_run.py.source",
+      "sanitized_sha256": "b0b9797536f2ee434422ac023c148ffee4d59f003d9e6cdf3a1f909acc258d79",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "b0b9797536f2ee434422ac023c148ffee4d59f003d9e6cdf3a1f909acc258d79"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/backup_lammps_build.py",
+      "original_sha256": "3216a973c4c653c1caad29aa8c0e242a90ee56b00ae8c9c986b22beadf507be9",
+      "archive_path": "recipes/MLIP-research/scripts/backup_lammps_build.py.source",
+      "sanitized_sha256": "f32a47a6dd8a4610c767527d6cd847d8aaf96d07252f7d3444908a062a7f809c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "f32a47a6dd8a4610c767527d6cd847d8aaf96d07252f7d3444908a062a7f809c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/baseline_metrics.py",
+      "original_sha256": "2708cd2be53c7993bc1e9dfabe5f79f12024451b45c561f894672d67d362f725",
+      "archive_path": "recipes/MLIP-research/scripts/baseline_metrics.py.source",
+      "sanitized_sha256": "2708cd2be53c7993bc1e9dfabe5f79f12024451b45c561f894672d67d362f725",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2708cd2be53c7993bc1e9dfabe5f79f12024451b45c561f894672d67d362f725"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/check_project.py",
+      "original_sha256": "c68789b967f56cc8468dc17392cc4d2515a46179494243f60f49bc048782a894",
+      "archive_path": "recipes/MLIP-research/scripts/check_project.py.source",
+      "sanitized_sha256": "c68789b967f56cc8468dc17392cc4d2515a46179494243f60f49bc048782a894",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c68789b967f56cc8468dc17392cc4d2515a46179494243f60f49bc048782a894"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/continue_grace_setup.py",
+      "original_sha256": "971dad9263b4af45001273ae058a669fc288b474ed6292f2adebe7f3a02c3c27",
+      "archive_path": "recipes/MLIP-research/scripts/continue_grace_setup.py.source",
+      "sanitized_sha256": "585939705477f1335093c2cddcc95458ad1e4faa43b9807d7614e25c87148253",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "585939705477f1335093c2cddcc95458ad1e4faa43b9807d7614e25c87148253"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/deployment_cluster.py",
+      "original_sha256": "920f642758b220d688d7015cea0ac12cee3f96a51c85d0926aa0d4c0b3226b32",
+      "archive_path": "recipes/MLIP-research/scripts/deployment_cluster.py.source",
+      "sanitized_sha256": "8e663ca51baad22e7a54f4ae05e5a018ca389558e34a947b1f9ca109d88c5bde",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "8e663ca51baad22e7a54f4ae05e5a018ca389558e34a947b1f9ca109d88c5bde"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/diagnose_dpa4.py",
+      "original_sha256": "adfa138e2d28e9f9d8ec7f3d02f78eb4170663c8c90740227eb882e531242276",
+      "archive_path": "recipes/MLIP-research/scripts/diagnose_dpa4.py.source",
+      "sanitized_sha256": "adfa138e2d28e9f9d8ec7f3d02f78eb4170663c8c90740227eb882e531242276",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "adfa138e2d28e9f9d8ec7f3d02f78eb4170663c8c90740227eb882e531242276"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/finetune_cluster.py",
+      "original_sha256": "8c0d4e1a484270b2b01975f8078b5cb6a7c23eb918557f251f38a0d10c4db367",
+      "archive_path": "recipes/MLIP-research/scripts/finetune_cluster.py.source",
+      "sanitized_sha256": "61575e17a825fe94aff0d2fd09930ff398aef07f46912eba4ff79a66e03f9d48",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "61575e17a825fe94aff0d2fd09930ff398aef07f46912eba4ff79a66e03f9d48"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/finetune_selection.py",
+      "original_sha256": "07e496e97f18249d1a18a6a62858bf8f337810ef6bae32b06365221a21e4587a",
+      "archive_path": "recipes/MLIP-research/scripts/finetune_selection.py.source",
+      "sanitized_sha256": "07e496e97f18249d1a18a6a62858bf8f337810ef6bae32b06365221a21e4587a",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "07e496e97f18249d1a18a6a62858bf8f337810ef6bae32b06365221a21e4587a"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/fm_baseline_accounting.py",
+      "original_sha256": "a93f603b04535c34195eebf4695f75308f8360b86982f7eddd2c156042c519aa",
+      "archive_path": "recipes/MLIP-research/scripts/fm_baseline_accounting.py.source",
+      "sanitized_sha256": "6d7fedf536c892d1f83f589997930cfc1fe44630af0c673d1eed08f7817cf840",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "6d7fedf536c892d1f83f589997930cfc1fe44630af0c673d1eed08f7817cf840"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/fm_baseline_cluster.py",
+      "original_sha256": "dd67074bd1a2dfeaa4c234a1f3179fe1d29147eaebf49dd0d903b86a211c4f5c",
+      "archive_path": "recipes/MLIP-research/scripts/fm_baseline_cluster.py.source",
+      "sanitized_sha256": "4cc8de953d979983b842547d68d92c36b8d0337e52bd7ab4dd1f1efd429120e1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "4cc8de953d979983b842547d68d92c36b8d0337e52bd7ab4dd1f1efd429120e1"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/fm_cluster.py",
+      "original_sha256": "debd37192e73a7232568bae0e3c231d16cbfd390dd3ff085c7daca9e592c9309",
+      "archive_path": "recipes/MLIP-research/scripts/fm_cluster.py.source",
+      "sanitized_sha256": "12a51f35adca6d77d48bab217af096243a13bd68fab84ac8503e03edc854c887",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "12a51f35adca6d77d48bab217af096243a13bd68fab84ac8503e03edc854c887"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/foundation_checkpoints.py",
+      "original_sha256": "9d5d9d3d8bcce58312c6d972849f60f447061960973a36b2362255faf51b3cde",
+      "archive_path": "recipes/MLIP-research/scripts/foundation_checkpoints.py.source",
+      "sanitized_sha256": "2f194c113b2f89826590f8452e12f7f643f1dafdee2c981459a22192f2baef72",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2f194c113b2f89826590f8452e12f7f643f1dafdee2c981459a22192f2baef72"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/grace_cluster.py",
+      "original_sha256": "6edad1f46923e3bc70619efd02e64d055e27ab5f16cbf4a2effd9edbe89a8182",
+      "archive_path": "recipes/MLIP-research/scripts/grace_cluster.py.source",
+      "sanitized_sha256": "751d3a9b96d19c4840d932d69b359150357504abc02a2d0fef59a5a8c29fb0cb",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "751d3a9b96d19c4840d932d69b359150357504abc02a2d0fef59a5a8c29fb0cb"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/inspect_cluster.py",
+      "original_sha256": "99a9972c715b77821ab97a0d5748500bc12349f745222013ee20afb6cb391b8c",
+      "archive_path": "recipes/MLIP-research/scripts/inspect_cluster.py.source",
+      "sanitized_sha256": "16e250ac2e1edba3fbca6566c2b9129e6c36c11fcf4cf65be15c186b1037792d",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "16e250ac2e1edba3fbca6566c2b9129e6c36c11fcf4cf65be15c186b1037792d"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/install_paw.py",
+      "original_sha256": "55da168837a8e5bfdcd4b7ee628c796c30ef935dabb3c3b379ad7a8356808676",
+      "archive_path": "recipes/MLIP-research/scripts/install_paw.py.source",
+      "sanitized_sha256": "c26eec5138627e8f8810b4956a81ead805af20a2d8321d7c7666caf25dd3f734",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c26eec5138627e8f8810b4956a81ead805af20a2d8321d7c7666caf25dd3f734"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/install_vasp.py",
+      "original_sha256": "db2fccdb52067d52d14da8ca00363edbfee976bb1144ece529c718bec563d851",
+      "archive_path": "recipes/MLIP-research/scripts/install_vasp.py.source",
+      "sanitized_sha256": "be44bb08c6d6c27245812cc73a24c99d59732d114dab311fffa7ed90c95e798e",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "e1d8c4aad1f184fce776466d18d3ff31ebd1c83579189f6f9e8ebbb31c30704a"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/kplib_cluster.py",
+      "original_sha256": "07bce8e5d3ca79063159e7df6eb84e9ee8d86b279fe7f7abded4f4e399a8ea26",
+      "archive_path": "recipes/MLIP-research/scripts/kplib_cluster.py.source",
+      "sanitized_sha256": "0f2277900052dc39c343d0cfa36c32dc77060a7f75c2fed2bdf4b2c175552d32",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0f2277900052dc39c343d0cfa36c32dc77060a7f75c2fed2bdf4b2c175552d32"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/kplib_grid.py",
+      "original_sha256": "b0da602c2b44eb6aeb9485b69dc6ee5da98f98317b6290709aab6198f1e97985",
+      "archive_path": "recipes/MLIP-research/scripts/kplib_grid.py.source",
+      "sanitized_sha256": "b0da602c2b44eb6aeb9485b69dc6ee5da98f98317b6290709aab6198f1e97985",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "b0da602c2b44eb6aeb9485b69dc6ee5da98f98317b6290709aab6198f1e97985"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/lock_grace.py",
+      "original_sha256": "ae4a0d938f74702e1910cc5abd871ec62d53a7234513da4720f4bde058cefff4",
+      "archive_path": "recipes/MLIP-research/scripts/lock_grace.py.source",
+      "sanitized_sha256": "ae4a0d938f74702e1910cc5abd871ec62d53a7234513da4720f4bde058cefff4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ae4a0d938f74702e1910cc5abd871ec62d53a7234513da4720f4bde058cefff4"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/plot_finetune.py",
+      "original_sha256": "ca407d7ad2ff0c1643cfe490a35bd341412b82c743d93be70d0b111ded8d8deb",
+      "archive_path": "recipes/MLIP-research/scripts/plot_finetune.py.source",
+      "sanitized_sha256": "ca407d7ad2ff0c1643cfe490a35bd341412b82c743d93be70d0b111ded8d8deb",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ca407d7ad2ff0c1643cfe490a35bd341412b82c743d93be70d0b111ded8d8deb"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/plot_fm_baseline.py",
+      "original_sha256": "12ac64fead19578786fd196ea1272455e46f96c2993de02dc20b0100f039383f",
+      "archive_path": "recipes/MLIP-research/scripts/plot_fm_baseline.py.source",
+      "sanitized_sha256": "12ac64fead19578786fd196ea1272455e46f96c2993de02dc20b0100f039383f",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "12ac64fead19578786fd196ea1272455e46f96c2993de02dc20b0100f039383f"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/plot_kplib_benchmark.py",
+      "original_sha256": "c0bd7adb80fbf9630cac3171d4772b11ef511441a0c3a58b0ba935e0a4a05307",
+      "archive_path": "recipes/MLIP-research/scripts/plot_kplib_benchmark.py.source",
+      "sanitized_sha256": "c0bd7adb80fbf9630cac3171d4772b11ef511441a0c3a58b0ba935e0a4a05307",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c0bd7adb80fbf9630cac3171d4772b11ef511441a0c3a58b0ba935e0a4a05307"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/plot_lora.py",
+      "original_sha256": "5d06669007044b9a7e18a81cba02ae0303b3110eb2020b891e9321ce2b3d4d43",
+      "archive_path": "recipes/MLIP-research/scripts/plot_lora.py.source",
+      "sanitized_sha256": "5d06669007044b9a7e18a81cba02ae0303b3110eb2020b891e9321ce2b3d4d43",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "5d06669007044b9a7e18a81cba02ae0303b3110eb2020b891e9321ce2b3d4d43"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/prepare_al_pilot.py",
+      "original_sha256": "12f168b929239cf9ca17a56439d1e80c2cbc9d2a7e88065168bac6f3d82963c4",
+      "archive_path": "recipes/MLIP-research/scripts/prepare_al_pilot.py.source",
+      "sanitized_sha256": "12f168b929239cf9ca17a56439d1e80c2cbc9d2a7e88065168bac6f3d82963c4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "12f168b929239cf9ca17a56439d1e80c2cbc9d2a7e88065168bac6f3d82963c4"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/record_kplib_setup.py",
+      "original_sha256": "16a7d93e25eb6dbb8bafc562ddc4afb0028edec9bbf07e36ef691a17a2cf3082",
+      "archive_path": "recipes/MLIP-research/scripts/record_kplib_setup.py.source",
+      "sanitized_sha256": "16a7d93e25eb6dbb8bafc562ddc4afb0028edec9bbf07e36ef691a17a2cf3082",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "16a7d93e25eb6dbb8bafc562ddc4afb0028edec9bbf07e36ef691a17a2cf3082"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/refresh_al32_accounting.py",
+      "original_sha256": "dd9e28701a95db5e3735981107b8db8bfe554b102214de3b854281af51004d6b",
+      "archive_path": "recipes/MLIP-research/scripts/refresh_al32_accounting.py.source",
+      "sanitized_sha256": "6544fdd816fa46b06650c3747ee47d4e67106bc4b9c5706367c7073f89eeb535",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "6544fdd816fa46b06650c3747ee47d4e67106bc4b9c5706367c7073f89eeb535"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/run_mlip_smoke.py",
+      "original_sha256": "4e963b4477be307d731e4b150a7548d155ea3297fc9bfa524f667c48df6abc60",
+      "archive_path": "recipes/MLIP-research/scripts/run_mlip_smoke.py.source",
+      "sanitized_sha256": "60d4d4e83729b1e3ff40f341a3a9991cb49badf661d3776e77b528bee27bf283",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "60d4d4e83729b1e3ff40f341a3a9991cb49badf661d3776e77b528bee27bf283"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/vasp_potentials.py",
+      "original_sha256": "69a235355dc99722020a6daa3bd7e260aadca2a0a0469c1859b9139a4cc356b2",
+      "archive_path": "recipes/MLIP-research/scripts/vasp_potentials.py.source",
+      "sanitized_sha256": "69a235355dc99722020a6daa3bd7e260aadca2a0a0469c1859b9139a4cc356b2",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "69a235355dc99722020a6daa3bd7e260aadca2a0a0469c1859b9139a4cc356b2"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al-pilot.py",
+      "original_sha256": "dd1f82e73d355d4cb772fccb346dd6b3b640661cac0daa8b9d18efd2a3ff8228",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al-pilot.py.source",
+      "sanitized_sha256": "dd1f82e73d355d4cb772fccb346dd6b3b640661cac0daa8b9d18efd2a3ff8228",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "dd1f82e73d355d4cb772fccb346dd6b3b640661cac0daa8b9d18efd2a3ff8228"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al-pilot.sbatch",
+      "original_sha256": "a2b7b83669f82ba721c04452512c0dea867a44387e085c4b8e6c18d1419ed1cb",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al-pilot.sbatch.source",
+      "sanitized_sha256": "ef97c5fd3bed7f319e47486e5be8bfe78c0c86e4eee2557c4f256d3913a941cf",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ef97c5fd3bed7f319e47486e5be8bfe78c0c86e4eee2557c4f256d3913a941cf"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al32-finetune-run.py",
+      "original_sha256": "697c01dd288b43446c6fda326cf79bfcf75eb43ece9b8ebbeb06ccce47815c04",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al32-finetune-run.py.source",
+      "sanitized_sha256": "697c01dd288b43446c6fda326cf79bfcf75eb43ece9b8ebbeb06ccce47815c04",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "697c01dd288b43446c6fda326cf79bfcf75eb43ece9b8ebbeb06ccce47815c04"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al32-finetune.sbatch",
+      "original_sha256": "0b37ba56ed42dc1d6e51744290b4269a9b5163c383794f19c66f3aca45cc7126",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al32-finetune.sbatch.source",
+      "sanitized_sha256": "8a1264d17b3378ff0aec05cb2b83c9add3718582707e44e3f62a3959fbbce9b1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "8a1264d17b3378ff0aec05cb2b83c9add3718582707e44e3f62a3959fbbce9b1"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al32-lora-run.py",
+      "original_sha256": "8bc85c1108714bb50c281640d7748c566ea0be070177a7cec412adb176940844",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al32-lora-run.py.source",
+      "sanitized_sha256": "8bc85c1108714bb50c281640d7748c566ea0be070177a7cec412adb176940844",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "8bc85c1108714bb50c281640d7748c566ea0be070177a7cec412adb176940844"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/al32-lora.sbatch",
+      "original_sha256": "c0102fd90f4e5079d783f9f8b03b49bbb34ef804bda6fdee85c820a07c0e9e26",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/al32-lora.sbatch.source",
+      "sanitized_sha256": "ea5dcdccda18ef2783d55c0eee1db80ffaf5b6768fab7fa53fb68d916592bb99",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ea5dcdccda18ef2783d55c0eee1db80ffaf5b6768fab7fa53fb68d916592bb99"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/build-grace-lammps.py",
+      "original_sha256": "882cb536e5b7a6d7682c7d4fbbec46b298a5cfbecd7fc0417ecdf73bea79a608",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/build-grace-lammps.py.source",
+      "sanitized_sha256": "2e9eb6b2173998d9bb208a3912c5e3e4ee6dd4c3c73f0409433a57f04461ec86",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2e9eb6b2173998d9bb208a3912c5e3e4ee6dd4c3c73f0409433a57f04461ec86"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/build-grace-lammps.sbatch",
+      "original_sha256": "76b0cf6b31c2300d22220886c86d8e28234f573b6d48b035ba1d74ff1d33979b",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/build-grace-lammps.sbatch.source",
+      "sanitized_sha256": "f7d4f2cf0f2d68c99e3f9df2ab757e13551779b865e129c33b0072610ac69294",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "f7d4f2cf0f2d68c99e3f9df2ab757e13551779b865e129c33b0072610ac69294"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/build-vasp.sbatch",
+      "original_sha256": "39558d16374420dc7ed771605571dd7a984bf4c21535425a0a9dbcdddd04cdf0",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/build-vasp.sbatch.source",
+      "sanitized_sha256": "3e21c7e2a5d052ed0f7cbe58aa63a771a77cc801b5450523bc67df7d9a64d82f",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "3e21c7e2a5d052ed0f7cbe58aa63a771a77cc801b5450523bc67df7d9a64d82f"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/check-vasp-build-storage.sh",
+      "original_sha256": "042ea867dbebd376c5e3c518570e8adcb49e66e5dbeb32c48b8e8d1e2d346886",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/check-vasp-build-storage.sh.source",
+      "sanitized_sha256": "bf8ecceba9f6e4f4feaff48afacc3aebbebdae3509e36715ada35292b6f02330",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "bf8ecceba9f6e4f4feaff48afacc3aebbebdae3509e36715ada35292b6f02330"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/deepmd-lammps-env.sh",
+      "original_sha256": "bb477e6b1cf01d8fd19aba42d2a6ee628ec5470fd8622d3563a32b83614cf923",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/deepmd-lammps-env.sh.source",
+      "sanitized_sha256": "029f8aec42f70c4f3f033b1f6e6add63a1cd059ecb4ea585ae45c6bb60c1d7e4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "029f8aec42f70c4f3f033b1f6e6add63a1cd059ecb4ea585ae45c6bb60c1d7e4"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/diagnose-slurm-paths.sh",
+      "original_sha256": "6346bb4a465a27b16ac6e84c94dc4a8185c9eb7dc234afe4ce51635ae3f41a6c",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/diagnose-slurm-paths.sh.source",
+      "sanitized_sha256": "361bdb783f23d3c8f4ce8d2d64126cf05a89a21e28ef9a9070b5f664ba8db9c6",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "361bdb783f23d3c8f4ce8d2d64126cf05a89a21e28ef9a9070b5f664ba8db9c6"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/diagnose-slurm-stdio.sh",
+      "original_sha256": "1d23c7814f40c20078d01578f8123a569cde26543385b3400282328f4150f4b6",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/diagnose-slurm-stdio.sh.source",
+      "sanitized_sha256": "9ef341bb48b9e7d7f0122333dd09fa3812161398315bb2edfaef7533fd98751f",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "9ef341bb48b9e7d7f0122333dd09fa3812161398315bb2edfaef7533fd98751f"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/dpa4-lammps.py",
+      "original_sha256": "15b7b79fabcf5ccd66657991281efeb472b7a2afb9c2f7fdc69507efc4cc74d8",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/dpa4-lammps.py.source",
+      "sanitized_sha256": "15b7b79fabcf5ccd66657991281efeb472b7a2afb9c2f7fdc69507efc4cc74d8",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "15b7b79fabcf5ccd66657991281efeb472b7a2afb9c2f7fdc69507efc4cc74d8"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/dpa4-lammps.sbatch",
+      "original_sha256": "608220155d4d88957ad9c7ec7f61d184ecf02e8474ef7eb24025c07e939a81fb",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/dpa4-lammps.sbatch.source",
+      "sanitized_sha256": "6e0a61e098462988728516e9c6e30882dd71c7b2dfea56e29e00db6ff6a86873",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "6e0a61e098462988728516e9c6e30882dd71c7b2dfea56e29e00db6ff6a86873"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-al32-baseline.py",
+      "original_sha256": "09325ad99f287b18d324611948be2b7fdcb21663d3c5cf5481e41e2f80907157",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-al32-baseline.py.source",
+      "sanitized_sha256": "09325ad99f287b18d324611948be2b7fdcb21663d3c5cf5481e41e2f80907157",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "09325ad99f287b18d324611948be2b7fdcb21663d3c5cf5481e41e2f80907157"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-al32-baseline.sbatch",
+      "original_sha256": "f411dee7bc7158bf08b2b2e7273a4d9335dcf01ff6c09a96acff59474dfbd70b",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-al32-baseline.sbatch.source",
+      "sanitized_sha256": "5522dff04c0e3fe4bec929493917d0b204983502084f7151cce1ce231c0420c7",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "5522dff04c0e3fe4bec929493917d0b204983502084f7151cce1ce231c0420c7"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-child.py",
+      "original_sha256": "0f4b2d13e7c262e546f637786e8c60d73466481406349b4c45ff334a32a48a4c",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-child.py.source",
+      "sanitized_sha256": "0f4b2d13e7c262e546f637786e8c60d73466481406349b4c45ff334a32a48a4c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0f4b2d13e7c262e546f637786e8c60d73466481406349b4c45ff334a32a48a4c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-deployment.py",
+      "original_sha256": "7d32f16482a2484c8d50af6d12aa6dda506e906177031a4f4a37a6898be261fe",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-deployment.py.source",
+      "sanitized_sha256": "1a696ec638586be64fba2e4c474a51c89d707dcca1e068f7d15e278a9dc428d4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "1a696ec638586be64fba2e4c474a51c89d707dcca1e068f7d15e278a9dc428d4"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-deployment.sbatch",
+      "original_sha256": "14c3a2d73efa2dcc187c5e28cd2c9ae013cf4c4bd17d461bd5c07ceed1f2f426",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-deployment.sbatch.source",
+      "sanitized_sha256": "41714f7a2d6640888dc2eeeab5619e049db5060c0f6288110aaeed55f82b1cd5",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "41714f7a2d6640888dc2eeeab5619e049db5060c0f6288110aaeed55f82b1cd5"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-finetune.py",
+      "original_sha256": "c3c895c5701df93cd13069ea455aef91f2a2d0eb85b9726875dd567a9637478d",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-finetune.py.source",
+      "sanitized_sha256": "c3c895c5701df93cd13069ea455aef91f2a2d0eb85b9726875dd567a9637478d",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c3c895c5701df93cd13069ea455aef91f2a2d0eb85b9726875dd567a9637478d"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-finetune.sbatch",
+      "original_sha256": "a4e53faec414702cf28bdb86b4c5fc5cdbfdba9ff3476e62027f118f283d092d",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-finetune.sbatch.source",
+      "sanitized_sha256": "c29cb114059ba5cd7f34adf9f8a19d2aff0ba64ac0d827b72ec2180febccd46c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c29cb114059ba5cd7f34adf9f8a19d2aff0ba64ac0d827b72ec2180febccd46c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-verify.py",
+      "original_sha256": "ad635b0b445a2056cbd6dc01c31dac4758220db6e0c37633ed29473314ea24a1",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-verify.py.source",
+      "sanitized_sha256": "ad635b0b445a2056cbd6dc01c31dac4758220db6e0c37633ed29473314ea24a1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ad635b0b445a2056cbd6dc01c31dac4758220db6e0c37633ed29473314ea24a1"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/fm-verify.sbatch",
+      "original_sha256": "e68f43266014d236bd717f60bcb80cb1574ee13fa64a535a20416c492ae3f34d",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/fm-verify.sbatch.source",
+      "sanitized_sha256": "a2228fc17fc5ff602ddf7ee0cadb4a6815edac333c2c5e3ef80bb9e26e643ff8",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a2228fc17fc5ff602ddf7ee0cadb4a6815edac333c2c5e3ef80bb9e26e643ff8"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/grace-env.sh",
+      "original_sha256": "6d2ada6f5839ad714d11d22c78e64c807a2efd8e1e60b3b8c19f3f306e5c3901",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/grace-env.sh.source",
+      "sanitized_sha256": "da81f49e2156069a98c470aded00f513201c9ef0bacc7d3293d3c20112e4530c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "da81f49e2156069a98c470aded00f513201c9ef0bacc7d3293d3c20112e4530c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/grace-lammps-env.sh",
+      "original_sha256": "393f8e8b02b05fce5d7d8dbb07f7ecc59c882057fb203f46722463ac72c4ef0a",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/grace-lammps-env.sh.source",
+      "sanitized_sha256": "b7c629185d5ece8e30dc319b59f35bf0ac24a153d26e259fe1c0e1bb19770625",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "b7c629185d5ece8e30dc319b59f35bf0ac24a153d26e259fe1c0e1bb19770625"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/grace-smoke.py",
+      "original_sha256": "a0aa4682e805629bc33fcfb3cd548b6a4a40d245aca5d313b65cabd28ac55e88",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/grace-smoke.py.source",
+      "sanitized_sha256": "a0aa4682e805629bc33fcfb3cd548b6a4a40d245aca5d313b65cabd28ac55e88",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a0aa4682e805629bc33fcfb3cd548b6a4a40d245aca5d313b65cabd28ac55e88"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/grace-smoke.sbatch",
+      "original_sha256": "225b7834cae8f9666b75d5db5a5ed7954d0cbc8e34a34512764c7577efa2b4e5",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/grace-smoke.sbatch.source",
+      "sanitized_sha256": "225b7834cae8f9666b75d5db5a5ed7954d0cbc8e34a34512764c7577efa2b4e5",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "225b7834cae8f9666b75d5db5a5ed7954d0cbc8e34a34512764c7577efa2b4e5"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/install-grace.sbatch",
+      "original_sha256": "8f77f9d3af184d6ac8fd1c2f6d35b82217f1bcf1807f7f16fb8cccd105677479",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/install-grace.sbatch.source",
+      "sanitized_sha256": "a2ae15fc6a23195e5743aa65512eb9b7b02fb972fb2cdb825ab06586ecdb762c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a2ae15fc6a23195e5743aa65512eb9b7b02fb972fb2cdb825ab06586ecdb762c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/kplib-run.py",
+      "original_sha256": "eca66dac0ce8acbc96e50d6a5211a9f65b52d9778a0a3a833f0d3eaccbbb994d",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/kplib-run.py.source",
+      "sanitized_sha256": "eca66dac0ce8acbc96e50d6a5211a9f65b52d9778a0a3a833f0d3eaccbbb994d",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "eca66dac0ce8acbc96e50d6a5211a9f65b52d9778a0a3a833f0d3eaccbbb994d"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/lammps-diagnostic.sbatch",
+      "original_sha256": "a499718230fe051bda7a695bbb007a3a6c1daa6df189f00931cc059b58773103",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/lammps-diagnostic.sbatch.source",
+      "sanitized_sha256": "bf56c2ffbef5f2d420652f6ac39a83ad0a5f12e8beb99efe9ecfb9d69c4a7d32",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "bf56c2ffbef5f2d420652f6ac39a83ad0a5f12e8beb99efe9ecfb9d69c4a7d32"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/lora-child.py",
+      "original_sha256": "b57b7e2635706cca7aa2604933413300384d45cfef4e08f70deb3d6dbd2bba4e",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/lora-child.py.source",
+      "sanitized_sha256": "b57b7e2635706cca7aa2604933413300384d45cfef4e08f70deb3d6dbd2bba4e",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "b57b7e2635706cca7aa2604933413300384d45cfef4e08f70deb3d6dbd2bba4e"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/mlip-smoke.py",
+      "original_sha256": "718a22ce4a1c457531f452df4eb3e458927b8ed0ad9a72fb5594a0d196cb9e60",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/mlip-smoke.py.source",
+      "sanitized_sha256": "718a22ce4a1c457531f452df4eb3e458927b8ed0ad9a72fb5594a0d196cb9e60",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "718a22ce4a1c457531f452df4eb3e458927b8ed0ad9a72fb5594a0d196cb9e60"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/mlip-smoke.sbatch",
+      "original_sha256": "2945b5e032b7dc4f45786655bf879935c0ac3aa6acecc7d5b4acf29e99978dfc",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/mlip-smoke.sbatch.source",
+      "sanitized_sha256": "16ac627865fddff68ab0fcc00c0188881b0377e158ebf69126e42ae9936dc11f",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "16ac627865fddff68ab0fcc00c0188881b0377e158ebf69126e42ae9936dc11f"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/paw-env.sh",
+      "original_sha256": "58381f4763dc8206c87ee9c73f7d42bbd1ef68ff05238720d87db29059811531",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/paw-env.sh.source",
+      "sanitized_sha256": "ff57c5be76b3e0ff9e63dc27184c756264b06939a2c52ad5309b12c2085f7c51",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ff57c5be76b3e0ff9e63dc27184c756264b06939a2c52ad5309b12c2085f7c51"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/restart-child.py",
+      "original_sha256": "cd902024763d706f689d61d97513c7b0160f4256cb21443d0cbacfa2435f0c82",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/restart-child.py.source",
+      "sanitized_sha256": "cd902024763d706f689d61d97513c7b0160f4256cb21443d0cbacfa2435f0c82",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "cd902024763d706f689d61d97513c7b0160f4256cb21443d0cbacfa2435f0c82"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "scripts/hpc/vasp-env.sh",
+      "original_sha256": "7a6d4ac66df1137f93cb599a41831281cf5543eeeb3f51b08a12725910b31150",
+      "archive_path": "recipes/MLIP-research/scripts/hpc/vasp-env.sh.source",
+      "sanitized_sha256": "7a6d4ac66df1137f93cb599a41831281cf5543eeeb3f51b08a12725910b31150",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "7a6d4ac66df1137f93cb599a41831281cf5543eeeb3f51b08a12725910b31150"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "AGENTS.md",
+      "original_sha256": "f4a3878197d1f9ab96ebe8e216eb0a7ad8749d4238495845a5d830e852453339",
+      "archive_path": "recipes/MLIP-research/AGENTS.md.source",
+      "sanitized_sha256": "0147dfcca3bed1a54b75020cc2b6daca8eadaa8ccd0c7815cbb8981d3813c7b6",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0147dfcca3bed1a54b75020cc2b6daca8eadaa8ccd0c7815cbb8981d3813c7b6"
+    },
+    {
+      "project": "MLIP-research",
+      "source": ".agents/skills/hpc-workflow/SKILL.md",
+      "original_sha256": "62eb66b19b9ab3aa8998809892bb181293cb6805c81ebaa7c02b3f5ca9a79c7c",
+      "archive_path": "recipes/MLIP-research/.agents/skills/hpc-workflow/SKILL.md.source",
+      "sanitized_sha256": "62eb66b19b9ab3aa8998809892bb181293cb6805c81ebaa7c02b3f5ca9a79c7c",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "62eb66b19b9ab3aa8998809892bb181293cb6805c81ebaa7c02b3f5ca9a79c7c"
+    },
+    {
+      "project": "MLIP-research",
+      "source": ".agents/skills/mlip-study/SKILL.md",
+      "original_sha256": "0375f3d09ff75957b551073a2f744d2d451c6ea0b925467eae80bccb1339dde3",
+      "archive_path": "recipes/MLIP-research/.agents/skills/mlip-study/SKILL.md.source",
+      "sanitized_sha256": "0375f3d09ff75957b551073a2f744d2d451c6ea0b925467eae80bccb1339dde3",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0375f3d09ff75957b551073a2f744d2d451c6ea0b925467eae80bccb1339dde3"
+    },
+    {
+      "project": "MLIP-research",
+      "source": ".agents/skills/mlip-distillation/SKILL.md",
+      "original_sha256": "5c41018696fe0bae7fdf6742613305b46d5428163e604170b29adc4b01f39126",
+      "archive_path": "recipes/MLIP-research/.agents/skills/mlip-distillation/SKILL.md.source",
+      "sanitized_sha256": "5c41018696fe0bae7fdf6742613305b46d5428163e604170b29adc4b01f39126",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "5c41018696fe0bae7fdf6742613305b46d5428163e604170b29adc4b01f39126"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "configs/model_backends.json",
+      "original_sha256": "6176450f934b87e840fc4f8825d5dda65fb4f87639226b0e84307c133275e429",
+      "archive_path": "recipes/MLIP-research/configs/model_backends.json.source",
+      "sanitized_sha256": "7373ab4fafae76dcf3fc9b6ac9f1db66ce7efefc1eeed28f7b1e2240fcb4df8b",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "74658cbdace580ae34cff56f84dd7e53506f5a35766108cd41873eb6f9676eb1"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "configs/vasp/oneapi-overrides.mk",
+      "original_sha256": "088846cd65453b7311e0dda3544fced18ca1daad7643595f4e883aa1b2e5cb31",
+      "archive_path": "recipes/MLIP-research/configs/vasp/oneapi-overrides.mk.source",
+      "sanitized_sha256": "088846cd65453b7311e0dda3544fced18ca1daad7643595f4e883aa1b2e5cb31",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "088846cd65453b7311e0dda3544fced18ca1daad7643595f4e883aa1b2e5cb31"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "configs/training/al32-foundation-finetune-v1.json",
+      "original_sha256": "32c76078be45473b90ddc20dcda3eee21afe40be45df84cdb6b215ed3701540e",
+      "archive_path": "recipes/MLIP-research/configs/training/al32-foundation-finetune-v1.json.source",
+      "sanitized_sha256": "6c9a4ad6bb31f83a8f9ca5847edbd261c0cf5908c5e83745afaf1d0fb69f67eb",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "6c9a4ad6bb31f83a8f9ca5847edbd261c0cf5908c5e83745afaf1d0fb69f67eb"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "configs/training/al32-dpa4-lora-v1.json",
+      "original_sha256": "24836d0bd1fd2305d7e836ef141c8c386e9f91e9ceabec8d4b556443c1e7e6fb",
+      "archive_path": "recipes/MLIP-research/configs/training/al32-dpa4-lora-v1.json.source",
+      "sanitized_sha256": "e0f503157144d0ad6c8f6e3bf7ae784b3f0e2a571a3ad7a089bb2c6c62c87863",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c2f9a93308156ce546c14241311f56346885860e71c5ad440c79a8c19fc1b846"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "configs/evaluation/al32-foundation-baseline-v1.json",
+      "original_sha256": "8a8f1f3be00d9696c13111c74ee995eb38a5fea5acbc018567ea4b7eab395879",
+      "archive_path": "recipes/MLIP-research/configs/evaluation/al32-foundation-baseline-v1.json.source",
+      "sanitized_sha256": "ce73754d81bf4b16d268cb62fe3c37895ffbd5155491bad62886a921d50d50f8",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ce73754d81bf4b16d268cb62fe3c37895ffbd5155491bad62886a921d50d50f8"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "models/foundation/dpa4-mini-omat24-20260805.json",
+      "original_sha256": "c59a09ed92f6c60defa66cd830b096d392f79caee6f0874eff8a26813fc3b692",
+      "archive_path": "recipes/MLIP-research/models/foundation/dpa4-mini-omat24-20260805.json.source",
+      "sanitized_sha256": "e85c276f3fde332158cf7a5d357ce40b3c95e1b7fd23110192119f63668aabb6",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "63ef7917d47976552f50c9f6b5b7cad3190931d1003cf2e88c7e8ab59a20a3ae"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "models/foundation/grace-1l-omat.json",
+      "original_sha256": "8f9de3a25f648c7d2a8ce11fb70c07ec4168cd2bf93201fc454d23476c618f04",
+      "archive_path": "recipes/MLIP-research/models/foundation/grace-1l-omat.json.source",
+      "sanitized_sha256": "01c115443dbcd4e4fb7935d0413a0638582f4926c4e100b40ac05becdf08a3ee",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "e3b91f090947326ded8d38450f97242f9a17a4bb273c56e5fcb380e044af5917"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/audit_sources.py",
+      "original_sha256": "e87ab9f8cc706ba607a6dfe8e4ff343dbe9e9302ec9b8a9dee099b45215c844a",
+      "archive_path": "recipes/TiAl/testset/audit_sources.py.source",
+      "sanitized_sha256": "f79b1714061acb144a5eeebffac74ddbf5af540f5a758bd541c506e56c113b31",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "633e1d1e7db4281101eacf13783f1b93857e66eff5bffee961471928894b7507"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/select_testset.py",
+      "original_sha256": "70b100da7173031ba0cbd5f0ff23cef705fcebbbd04a58fb4b3b602352e8c7d3",
+      "archive_path": "recipes/TiAl/testset/select_testset.py.source",
+      "sanitized_sha256": "70b100da7173031ba0cbd5f0ff23cef705fcebbbd04a58fb4b3b602352e8c7d3",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "70b100da7173031ba0cbd5f0ff23cef705fcebbbd04a58fb4b3b602352e8c7d3"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/finalize_testset.py",
+      "original_sha256": "2afd83333f0b9f10f8d3c0f23e4b9d6c5a0fef001493b4226a53ce4e2c8c6e27",
+      "archive_path": "recipes/TiAl/testset/finalize_testset.py.source",
+      "sanitized_sha256": "2afd83333f0b9f10f8d3c0f23e4b9d6c5a0fef001493b4226a53ce4e2c8c6e27",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2afd83333f0b9f10f8d3c0f23e4b9d6c5a0fef001493b4226a53ce4e2c8c6e27"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/verify_testset.py",
+      "original_sha256": "2f8a54112b98826161c627218a4e49a30494a9631de1707693ff8853164cf9e3",
+      "archive_path": "recipes/TiAl/testset/verify_testset.py.source",
+      "sanitized_sha256": "2f8a54112b98826161c627218a4e49a30494a9631de1707693ff8853164cf9e3",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2f8a54112b98826161c627218a4e49a30494a9631de1707693ff8853164cf9e3"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/TiAl-test50-v1/requirements-lock.txt",
+      "original_sha256": "228833e36c675bded091d925af3838670949abcdf54cdb531a0dc1b0bc48ff8e",
+      "archive_path": "recipes/TiAl/testset/TiAl-test50-v1/requirements-lock.txt.source",
+      "sanitized_sha256": "d03310de69eb5cd308f525688e4205a7337255d40d1a7892d40f917fe055597f",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2f804608d39460a65872cc71526e17a86bfe0ffc0c301d8a36096f26c7b08b85"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/TiAl-test50-v1/selection_protocol.json",
+      "original_sha256": "c2aa1f661b29b463b4cc7ffb5df85e9998bf4a5fdc8e4c100292f55929a5845f",
+      "archive_path": "recipes/TiAl/testset/TiAl-test50-v1/selection_protocol.json.source",
+      "sanitized_sha256": "ef79c3183a985040d9d46201d4b390b7415c5276082b343516100454487f33e3",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "af7e16b4843f79858fbf220230befb30058c36c84b8cb0bbda0ce08100cd2291"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/dft/test50-dft-20261021-01/workflow.py",
+      "original_sha256": "f2ce013ef7113df1da76340698f099275e1adac84e840f89da671bb497808ce0",
+      "archive_path": "recipes/TiAl/testset/dft/test50-dft-20261021-01/workflow.py.source",
+      "sanitized_sha256": "f2ce013ef7113df1da76340698f099275e1adac84e840f89da671bb497808ce0",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "f2ce013ef7113df1da76340698f099275e1adac84e840f89da671bb497808ce0"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/dft/test50-dft-20261021-01/protocol.json",
+      "original_sha256": "e6992d3c592258431e2a4c54161543e6f87a0f697275b9dc476aafa9ffc71bdb",
+      "archive_path": "recipes/TiAl/testset/dft/test50-dft-20261021-01/protocol.json.source",
+      "sanitized_sha256": "0f60577471a9a2f5abda3c8acc87b748574aa263e348dd5cf616a0f1afa91530",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0f60577471a9a2f5abda3c8acc87b748574aa263e348dd5cf616a0f1afa91530"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/dft/test50-dft-20261021-01/production.sbatch",
+      "original_sha256": "6847ee85865db1db3fc5eeb287e0222f2214e325fad1dc5823dff2c76801eaaf",
+      "archive_path": "recipes/TiAl/testset/dft/test50-dft-20261021-01/production.sbatch.source",
+      "sanitized_sha256": "e40ef62886b7b7437a331927f1cc513cde46fb0ff04563eef797d99c4f3f9260",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "e40ef62886b7b7437a331927f1cc513cde46fb0ff04563eef797d99c4f3f9260"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/monitor/predict_training.py",
+      "original_sha256": "8a23873617a83a17ee9aa2958cbdb0ae04239c46ac76a9bc0a33b6cb53996013",
+      "archive_path": "recipes/TiAl/testset/monitor/predict_training.py.source",
+      "sanitized_sha256": "8a23873617a83a17ee9aa2958cbdb0ae04239c46ac76a9bc0a33b6cb53996013",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "8a23873617a83a17ee9aa2958cbdb0ae04239c46ac76a9bc0a33b6cb53996013"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/monitor/predict_pretrained.py",
+      "original_sha256": "c65a308661fa02a5a669b293dca5fcc05632d69d3eb8de20bb07f14f11c40296",
+      "archive_path": "recipes/TiAl/testset/monitor/predict_pretrained.py.source",
+      "sanitized_sha256": "c65a308661fa02a5a669b293dca5fcc05632d69d3eb8de20bb07f14f11c40296",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c65a308661fa02a5a669b293dca5fcc05632d69d3eb8de20bb07f14f11c40296"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/monitor/prepare_alignment.py",
+      "original_sha256": "99bd3cc1e4d8c41d8cfdfeef4b29943c0042e6c8f5fbf8f572b7d73f96e14be8",
+      "archive_path": "recipes/TiAl/testset/monitor/prepare_alignment.py.source",
+      "sanitized_sha256": "bd1d536430799b7d1fda0dd8cbd8f1d89025782aa4b67f0bfa726d04629a7510",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "723af6e8afcb820bd8cb558b2c55e40646bfc44f202a8f11da62167c5dec313f"
+    },
+    {
+      "project": "TiAl",
+      "source": "testset/monitor/verify_exports.py",
+      "original_sha256": "f910a6728793a49dc4bad016c19434724d3283d85367e6f89644d59ba6164e88",
+      "archive_path": "recipes/TiAl/testset/monitor/verify_exports.py.source",
+      "sanitized_sha256": "f910a6728793a49dc4bad016c19434724d3283d85367e6f89644d59ba6164e88",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "f910a6728793a49dc4bad016c19434724d3283d85367e6f89644d59ba6164e88"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/workflow.py",
+      "original_sha256": "652a7cd48c3857580e98ccd8d9c0928027f8d93275487791e9b237b2d65a2405",
+      "archive_path": "recipes/TiAl/phonons/scripts/workflow.py.source",
+      "sanitized_sha256": "29693c6419adb169278befa15961ec6fd0bb36fb1fbd6405a55f2a0361ddedae",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "29693c6419adb169278befa15961ec6fd0bb36fb1fbd6405a55f2a0361ddedae"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/production_step_v10.py",
+      "original_sha256": "0631c9f1583dd8724a9afca8c43c6e189fd4c34bcaeff40327d1839fffbf12e6",
+      "archive_path": "recipes/TiAl/phonons/scripts/production_step_v10.py.source",
+      "sanitized_sha256": "637c89f7280e14bc2b8732a68342f6f57238a20269bc4c10fdcb2d7dc81ebc86",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "031823bcff995cc19ce42f414cdf2b86029cd9882f2e0bc89221b409b15f17bb"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/checkpoint_guard_v5.py",
+      "original_sha256": "d45566f7a3f512537c35ad095782af43fe349da47f0c9b23aa5494e4ab7d3c81",
+      "archive_path": "recipes/TiAl/phonons/scripts/checkpoint_guard_v5.py.source",
+      "sanitized_sha256": "d45566f7a3f512537c35ad095782af43fe349da47f0c9b23aa5494e4ab7d3c81",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "d45566f7a3f512537c35ad095782af43fe349da47f0c9b23aa5494e4ab7d3c81"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/build_pbesol_phonons.py",
+      "original_sha256": "84a7df7a420ea24edafc04895328d0ea9d10d2cf77efcd2fc98a8f1b3c9a5290",
+      "archive_path": "recipes/TiAl/phonons/scripts/build_pbesol_phonons.py.source",
+      "sanitized_sha256": "84a7df7a420ea24edafc04895328d0ea9d10d2cf77efcd2fc98a8f1b3c9a5290",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "84a7df7a420ea24edafc04895328d0ea9d10d2cf77efcd2fc98a8f1b3c9a5290"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/analyze_dpa4_pair.py",
+      "original_sha256": "feb469c6d6ff815b7e1db1639f959da95151dab0b5df863f559a9bc9b59cb96c",
+      "archive_path": "recipes/TiAl/phonons/scripts/analyze_dpa4_pair.py.source",
+      "sanitized_sha256": "adeda969c635663556bf80a811c9372c788f48c4b157487247c3e72eb75821a4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "540a91a0f4cdf7352bcd66ef39aea360415ade18725e83be5287947337f966f6"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/verify_dpa4_pairs.py",
+      "original_sha256": "2f87265f34e5b2250ca17440fd4658209348ea7cf395c632280bf9e5c4751392",
+      "archive_path": "recipes/TiAl/phonons/scripts/verify_dpa4_pairs.py.source",
+      "sanitized_sha256": "2f87265f34e5b2250ca17440fd4658209348ea7cf395c632280bf9e5c4751392",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2f87265f34e5b2250ca17440fd4658209348ea7cf395c632280bf9e5c4751392"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/dpa4_matched_forces.py",
+      "original_sha256": "a8f283cf12058ed65f5a62710d118890f1898af7fb5bf6f185c937dc049d0d55",
+      "archive_path": "recipes/TiAl/phonons/scripts/dpa4_matched_forces.py.source",
+      "sanitized_sha256": "a8f283cf12058ed65f5a62710d118890f1898af7fb5bf6f185c937dc049d0d55",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a8f283cf12058ed65f5a62710d118890f1898af7fb5bf6f185c937dc049d0d55"
+    },
+    {
+      "project": "TiAl",
+      "source": "phonons/scripts/compare_xc_checkpoint_phonons.py",
+      "original_sha256": "77005b9b6408140703184d4656e54f928311448bdc589c6f0efa6388bcc94215",
+      "archive_path": "recipes/TiAl/phonons/scripts/compare_xc_checkpoint_phonons.py.source",
+      "sanitized_sha256": "77005b9b6408140703184d4656e54f928311448bdc589c6f0efa6388bcc94215",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "77005b9b6408140703184d4656e54f928311448bdc589c6f0efa6388bcc94215"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct25/control_md_worker.py",
+      "original_sha256": "bbb388a375eeeff31ec11879e131980661f52b0975ad9647260395a2a99be950",
+      "archive_path": "recipes/TiAl/audit/oct25/control_md_worker.py.source",
+      "sanitized_sha256": "bbb388a375eeeff31ec11879e131980661f52b0975ad9647260395a2a99be950",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "bbb388a375eeeff31ec11879e131980661f52b0975ad9647260395a2a99be950"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct25/property_screen_remote.py",
+      "original_sha256": "5a5a055e81170376f98a8632b9bd0d5b48c2d90ef4d1f00ba2687da758024528",
+      "archive_path": "recipes/TiAl/audit/oct25/property_screen_remote.py.source",
+      "sanitized_sha256": "5a5a055e81170376f98a8632b9bd0d5b48c2d90ef4d1f00ba2687da758024528",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "5a5a055e81170376f98a8632b9bd0d5b48c2d90ef4d1f00ba2687da758024528"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct25/prepare_gpu_enthalpy.py",
+      "original_sha256": "3357b4398a3b0c408e714de4e73470297bc7498706869e21877b594f3183ba3d",
+      "archive_path": "recipes/TiAl/audit/oct25/prepare_gpu_enthalpy.py.source",
+      "sanitized_sha256": "fb7ce04600af6f5d7dbaaf77ab353d982c0ba3ab5adbfdead4eebddde6824ca1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "fb7ce04600af6f5d7dbaaf77ab353d982c0ba3ab5adbfdead4eebddde6824ca1"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct25/gpu_enthalpy_worker.py",
+      "original_sha256": "3c9dff5c7eda9fa0519a2db8ffe4910411c82faf121006989d4ccd9da30ce179",
+      "archive_path": "recipes/TiAl/audit/oct25/gpu_enthalpy_worker.py.source",
+      "sanitized_sha256": "3c9dff5c7eda9fa0519a2db8ffe4910411c82faf121006989d4ccd9da30ce179",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "3c9dff5c7eda9fa0519a2db8ffe4910411c82faf121006989d4ccd9da30ce179"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/xc_liquid_density_extended/md_common.py",
+      "original_sha256": "be0a57c89c05c08cd90330fd4d59e61baa7a9c490b2e38f6a4a5a5dddad4f567",
+      "archive_path": "recipes/TiAl/audit/oct29/xc_liquid_density_extended/md_common.py.source",
+      "sanitized_sha256": "288b2e805311af2a6decc9ad5babb65499b9931ffffc68ec9166741cf525d680",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "4d4a5d987ddde55653c84d8026258fe0d4788a28b07f7d05578e66f8456c09fb"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/xc_liquid_density_extended/workflow.py",
+      "original_sha256": "7ae0dcf3bbd1c6e6bb91083f724c9a945eb52083a97e5b535bf3e355020ba1c5",
+      "archive_path": "recipes/TiAl/audit/oct29/xc_liquid_density_extended/workflow.py.source",
+      "sanitized_sha256": "7ae0dcf3bbd1c6e6bb91083f724c9a945eb52083a97e5b535bf3e355020ba1c5",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "7ae0dcf3bbd1c6e6bb91083f724c9a945eb52083a97e5b535bf3e355020ba1c5"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/xc_liquid_density_extended/protocol.json",
+      "original_sha256": "d90b9fb94eb608253a6432284c452dd83ca59b284de8ff0e577795a14060adfc",
+      "archive_path": "recipes/TiAl/audit/oct29/xc_liquid_density_extended/protocol.json.source",
+      "sanitized_sha256": "30d7ada9db318a6342f08564e7204dfb011b560b8be575316ca3668b3ad55b6a",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "57d8ef85c663f2274b8a5e83e7fe9250a9505e2d7a43a0260728a9cfe287f8a5"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/pbe15k_ti_temperature/md_core.py",
+      "original_sha256": "d5fb448223155fa671b212d003163f9f9741dc4eec10c8dd80b0adf23e59f786",
+      "archive_path": "recipes/TiAl/audit/oct29/pbe15k_ti_temperature/md_core.py.source",
+      "sanitized_sha256": "00da4c80fed3eaa01370c5c3679fa227534e18d956f78f47ec45c0b67cc2bfac",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0702a644c5b87b47c7b6b4402009231c9fc5301e8269587eab8c980686ad3aec"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/pbe15k_ti_temperature/protocol.json",
+      "original_sha256": "94b0a4121f2327504a99655c3f4bbb726d7a0205654bf3287802e6e012b9dbcc",
+      "archive_path": "recipes/TiAl/audit/oct29/pbe15k_ti_temperature/protocol.json.source",
+      "sanitized_sha256": "81907172ccf492646527a4004765e61e64f4c012d82d9acad74832d551be0274",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "a5b44fdc55078a36fc914a44da391968d759f4d3244fd93348483f09a83cc9fd"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/pbe15k_ti_temperature/test_analysis.py",
+      "original_sha256": "e2b12b5ad054887815333c706318e8b706b6faf9bf3f3789a21636c4c5cee298",
+      "archive_path": "recipes/TiAl/audit/oct29/pbe15k_ti_temperature/test_analysis.py.source",
+      "sanitized_sha256": "239b923d3f4c196be95ab8f394c25f3a1811304689511ecec32b9d3de4caceef",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "f352ae1e47c73dcebe32318e9138d8ced56dbfd2153875bd8de6cbb9e2c3c234"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct29/analyze_xc_liquid_density.py",
+      "original_sha256": "3c50b3f78a9f8fdcad5137db61e12d7cc2f71d2ab0ceb2c65c1938dc9227c219",
+      "archive_path": "recipes/TiAl/audit/oct29/analyze_xc_liquid_density.py.source",
+      "sanitized_sha256": "3c50b3f78a9f8fdcad5137db61e12d7cc2f71d2ab0ceb2c65c1938dc9227c219",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "3c50b3f78a9f8fdcad5137db61e12d7cc2f71d2ab0ceb2c65c1938dc9227c219"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct20/reprocess_thermo.py",
+      "original_sha256": "053b2665bd6520e79e7cb5231cf79ff8ce90dca3a4ec721bf88dfc2303026d36",
+      "archive_path": "recipes/TiAl/audit/oct20/reprocess_thermo.py.source",
+      "sanitized_sha256": "7dad1e2a7117ae060a730e44805488cc9ee41a7b6a36ee4636e3962c58c407b4",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "0985dd96620a28163c239d8c1218fc01b1593b765793549a62f5ddbbc8deb534"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct20/pressure_audit.py",
+      "original_sha256": "2ad80d27f2270dae45c0dbb5615cfa98a6f6d8f6a5b2d2c764ce774dc9693996",
+      "archive_path": "recipes/TiAl/audit/oct20/pressure_audit.py.source",
+      "sanitized_sha256": "ebe3985b2707d477b0388bd301189a7a0c53762a1e8d18d0e2e9f666e3a3fbfc",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "19db66359b5a0116da7fb4cd29134a4d070ea8d8fc81c390b10a0d5d97ab4b73"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct20/stacie_check.py",
+      "original_sha256": "53fc4a7ca07dd0c2edc8fde4fba8c0374e73154ee83f0cbdfbed7dfe5ee6c65b",
+      "archive_path": "recipes/TiAl/audit/oct20/stacie_check.py.source",
+      "sanitized_sha256": "384551c5fac0c4759c40b164a6de1263a00557b3cd049a82d5d03d50d3aae83b",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2ce02d541cff02a4004423edd8172cfe3eb3d6e0582d538dc98ac21783422421"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/oct27/viscosity_5k_vs_15k/analyze.py",
+      "original_sha256": "fab1ab814c49fbb513c08b20e1da46f7cab95bd110aefd78a2d15eecc9c876c3",
+      "archive_path": "recipes/TiAl/audit/oct27/viscosity_5k_vs_15k/analyze.py.source",
+      "sanitized_sha256": "29ceec253eba46de15304d5849caeb66f43a269822334e916ef37cd4c1efc7a2",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ccb4a436718b0eec41401fbc66e296655245d027a90cbc111929c6b1a312169e"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/nov01/r2scan_viscosity_diagnostics/analyze.py",
+      "original_sha256": "9d231287a7eaffcdf09783ab45f7306d46785ab5d8ab894fdf040df9407c9b86",
+      "archive_path": "recipes/TiAl/audit/nov01/r2scan_viscosity_diagnostics/analyze.py.source",
+      "sanitized_sha256": "df3743da28bef4f2b687bb31c18ec5e45e56e347f045e80cc6060c0672de1c80",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "6faae9e8d5fd2411842f230efad01094f274fc4742185e58e096791296e2add3"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/nov01/r2scan_viscosity_diagnostics/finalize.py",
+      "original_sha256": "29474087293fd78624e3f5a73cd8bd65717a7d072860225c0283838b7015a156",
+      "archive_path": "recipes/TiAl/audit/nov01/r2scan_viscosity_diagnostics/finalize.py.source",
+      "sanitized_sha256": "29474087293fd78624e3f5a73cd8bd65717a7d072860225c0283838b7015a156",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "29474087293fd78624e3f5a73cd8bd65717a7d072860225c0283838b7015a156"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/nov01/r2scan_viscosity_diagnostics/supplement.py",
+      "original_sha256": "c38740c1add9b8f2a4774fcde8d970a5b615c93a4f9358f440270c13c062b47b",
+      "archive_path": "recipes/TiAl/audit/nov01/r2scan_viscosity_diagnostics/supplement.py.source",
+      "sanitized_sha256": "c38740c1add9b8f2a4774fcde8d970a5b615c93a4f9358f440270c13c062b47b",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "c38740c1add9b8f2a4774fcde8d970a5b615c93a4f9358f440270c13c062b47b"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/nov01/r2scan_viscosity_diagnostics/windows.py",
+      "original_sha256": "2dd8fd2d354a8a255d4368c934d8d9540fa583bd2e77835e0ab5ddc13bbb9ff1",
+      "archive_path": "recipes/TiAl/audit/nov01/r2scan_viscosity_diagnostics/windows.py.source",
+      "sanitized_sha256": "2dd8fd2d354a8a255d4368c934d8d9540fa583bd2e77835e0ab5ddc13bbb9ff1",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "2dd8fd2d354a8a255d4368c934d8d9540fa583bd2e77835e0ab5ddc13bbb9ff1"
+    },
+    {
+      "project": "TiAl",
+      "source": "audit/nov01/r2scan_viscosity_diagnostics/stacie_source_hashes.json",
+      "original_sha256": "ef322055367ef6fd9dd3900e34944ee07e8c5b0b0abb7f42c3daac7a231f2604",
+      "archive_path": "recipes/TiAl/audit/nov01/r2scan_viscosity_diagnostics/stacie_source_hashes.json.source",
+      "sanitized_sha256": "e8066d0afd4c13179951f460b7176dd264a752dcb6e62ce026c9e2f35c9f31fd",
+      "transformation": "User paths/account templated; UTF-8 LF; .source extension; historical reference",
+      "collection_sha256": "ad0cb31d5b3c8ac0d5e8df8f38bbba04dcbbcc73bba751a650fe26192c29ae10"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "runs/mlip-smoke-20261017-a100-vesin-01/pip-freeze.txt",
+      "archive_path": "environments/dpa4-a100-observed-freeze.txt",
+      "original_sha256": "0b5111337e6362200a460585bf51f3b0359ef1eada72755b3e9ef05f2174d6c0",
+      "transformation": "none; version inventory, not artifact lock",
+      "collection_sha256": "0b5111337e6362200a460585bf51f3b0359ef1eada72755b3e9ef05f2174d6c0"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "environments/grace-a100.lock.json",
+      "archive_path": "environments/grace-a100.lock.json",
+      "original_sha256": "f4ea87281e62881b40ad551a422631540bf41fd8bba7159cdce70e699eb87657",
+      "transformation": "none; exact bytes",
+      "collection_sha256": "f4ea87281e62881b40ad551a422631540bf41fd8bba7159cdce70e699eb87657"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "environments/grace-a100-conda-linux-64.lock.txt",
+      "archive_path": "environments/grace-a100-conda-linux-64.lock.txt",
+      "original_sha256": "a597dda807507344dfe0a811bdebacb7d8c39cc19cbebf114cd125374bb369ac",
+      "transformation": "none; exact bytes",
+      "collection_sha256": "a597dda807507344dfe0a811bdebacb7d8c39cc19cbebf114cd125374bb369ac"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "environments/grace-a100-pip-linux-64.lock.txt",
+      "archive_path": "environments/grace-a100-pip-linux-64.lock.txt",
+      "original_sha256": "fc6d6ad5f09f9183c213dd2b1a6287488489aad44401867a45ffe3c71813ca54",
+      "transformation": "none; exact bytes",
+      "collection_sha256": "fc6d6ad5f09f9183c213dd2b1a6287488489aad44401867a45ffe3c71813ca54"
+    },
+    {
+      "project": "MLIP-research",
+      "source": "environments/grace-a100.proposed.yml",
+      "archive_path": "environments/grace-a100.proposed.yml",
+      "original_sha256": "ae85f7a014f3abace7dfd4cb7382a17190a3e521b4d3330a1b7f87391fab97fd",
+      "transformation": "none; exact bytes",
+      "collection_sha256": "ae85f7a014f3abace7dfd4cb7382a17190a3e521b4d3330a1b7f87391fab97fd"
+    }
+  ],
+  "collection_note": "Collection hashes cover the shipped LF text. Original and archive hashes identify the source revisions. Legacy machine configuration, SSH bootstrap, README and single-job log retrieval were omitted."
+}

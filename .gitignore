@@ -1,0 +1,12 @@
+.validation-deps/
+__pycache__/
+*.pyc
+
+# Local copies, receipts and data from the original workstation
+/backups/
+/integration/
+/UMT-K40m-Matbench-*.zip
+/.qa/
+.venv/
+.pytest_cache/
+collection-root.txt

@@ -1,0 +1,8 @@
+# Fill paths, validate and source inside Slurm. This template is not auto-executed.
+source @CONDA_SH@
+conda activate @GRACE_PREFIX@
+export TF_USE_LEGACY_KERAS=1 PYTHONNOUSERSITE=1 TF_FORCE_GPU_ALLOW_GROWTH=true
+export GRACE_CUDA_ROOT="$CONDA_PREFIX/lib/python3.11/site-packages/nvidia/cuda_nvcc"
+export XLA_FLAGS="--xla_gpu_cuda_data_dir=$GRACE_CUDA_ROOT"
+export PATH="$GRACE_CUDA_ROOT/bin:$PATH"
+export GRACE_CACHE=@REMOTE_WORK@/model-cache/grace

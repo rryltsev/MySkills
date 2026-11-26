@@ -1,0 +1,5 @@
+# Python 3.11; complete local labs and GFA regression tests.
+numpy>=2.0,<3
+scipy>=1.15,<2
+ase>=3.29,<4
+pytest>=8,<10

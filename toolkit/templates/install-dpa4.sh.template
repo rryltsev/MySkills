@@ -1,0 +1,12 @@
+# Candidate reconstruction, not a tested clean install or full artifact lock.
+# Run inside Slurm in the writable child installer context from install-cache.sh.template.
+set -euo pipefail
+test -n "${SLURM_JOB_ID:-}"
+source @CONDA_SH@
+test ! -e @DPA4_PREFIX@
+conda create --yes --prefix @DPA4_PREFIX@ python=3.12 pip
+@DPA4_PREFIX@/bin/python -m pip install --index-url https://download.pytorch.org/whl/cu130 'torch==2.11.0+cu130'
+@DPA4_PREFIX@/bin/python -m pip install -c @OBSERVED_FREEZE@ 'deepmd-kit==3.2.0' 'vesin-torch==0.6.1' 'ase==3.29.0'
+@DPA4_PREFIX@/bin/python -m pip check
+@DPA4_PREFIX@/bin/python -m pip freeze --all
+# Then run the retained synthetic GPU-training check; native LAMMPS is a separate build.
